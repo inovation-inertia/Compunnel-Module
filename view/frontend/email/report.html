@@ -1,0 +1,29 @@
+
+<!--@vars {} @-->
+<!--@subject {{trans "Last One Hour Report Generation"}} @-->
+<body>
+<div>
+{{template config_path="design/email/header_template"}}
+<table cellspacing="0" cellpadding="0" border="0" height="100%" width="100%">
+        <tr>
+            <td align="center" valign="top" style="padding:20px 0 20px 0">
+                <!-- Start Content -->
+                <table cellspacing="0" cellpadding="10" border="0" width="650">
+                    <tr>
+                        <td valign="top">
+                            <h1>Hello {{var compunnel_rec_name}},</h1>
+                            <p>
+                        	 Check Order Reports Of Last One hour @ your website.<br />
+                        	</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center"><center>Thanks & Regards,<strong>{{var storename}}</strong></center></td>
+                    </tr>
+                </table>
+                <!-- End Content -->
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
