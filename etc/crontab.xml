@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
     <group id="compunnel">
-      <job name="custom_order_reports" instance="Compunnel\Module\Cron\Data" method="execute">
+      <job name="order_reports_by_compunnel" instance="Compunnel\Module\Cron\Data" method="execute">
            <schedule>0 * * * *</schedule>
         </job>
     </group>
