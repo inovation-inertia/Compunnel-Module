@@ -10,7 +10,7 @@ class Data
 	 * @param Magento\Framework\Filesystem $filesystem
 	 * @param \Magento\Framework\App\ResourceConnection $resourceConnection
 	 * @param \Magento\Framework\Stdlib\DateTime\TimezoneInterface $datetime
-	 * @param \Custom\Module\Helper\Data $helper
+	 * @param \Compunnel\Module\Helper\Data $helper
 	 * @param Magento\Framework\App\Filesystem\DirectoryList $dirList
 	 * @param Magento\Framework\App\Response\Http\FileFactory $fileFactory
 	 */
@@ -20,7 +20,7 @@ class Data
 			\Magento\Framework\Filesystem $filesystem,
 			\Magento\Framework\App\ResourceConnection $resourceConnection,
 			\Magento\Framework\Stdlib\DateTime\TimezoneInterface $datetimeZone,
-			\Custom\Module\Helper\Data $helper,
+			\Compunnel\Module\Helper\Data $helper,
 			\Magento\Framework\Stdlib\DateTime\DateTime $dateTime,
 			\Magento\Framework\App\Filesystem\DirectoryList $directoryList,
 			\Magento\Framework\App\Response\Http\FileFactory $fileFactory
