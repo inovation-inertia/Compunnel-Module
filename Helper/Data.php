@@ -9,13 +9,13 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 	 * @param \Magento\Framework\App\Helper\Context $context
 	 * @param \Magento\Store\Model\StoreManagerInterface $storeManager
 	 * @param \Magento\Framework\Translate\Inline\StateInterface $inlineTranslation
-	 * @param \Custom\Module\Model\Mailattachement $transportBuilder
+	 * @param \Compunnel\Module\Model\Mailattachement $transportBuilder
 	 */
     public function __construct(
     		\Magento\Framework\App\Helper\Context $context,
     		\Magento\Store\Model\StoreManagerInterface $storeManager,
     		\Magento\Framework\Translate\Inline\StateInterface $inlineTranslation,
-    		\Custom\Module\Model\Mailattachement $transportBuilder
+    		\Compunnel\Module\Model\Mailattachement $transportBuilder
     ) {
         $this->_storeManager = $storeManager;
         $this->_inlineTranslation = $inlineTranslation;
